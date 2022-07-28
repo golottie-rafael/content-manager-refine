@@ -4,6 +4,12 @@ import ReactDOM from "react-dom";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 
+// Default theme. ~960B
+import '@vime/core/themes/default.css';
+
+// Optional light theme (extends default). ~400B
+import '@vime/core/themes/light.css';
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
